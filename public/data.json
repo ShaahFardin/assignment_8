@@ -1,0 +1,50 @@
+[
+  {
+    "img": "https://www.fcbarcelona.com/photo-resources/2022/07/01/23d0a391-6e78-4d23-9757-4971560591ea/jugador_fitxa-frenkie.jpg?width=840&height=525",
+    "id": "1",
+    "name": "Frankie De Jong",
+    "description": "De Jong played for FC Barcelon during a crucial time. he has helped the team a lot. He performed when it was needed the most",
+    "goal": "18",
+    "minute": 100
+  },
+  {
+    "img": "https://www.fcbarcelona.com/photo-resources/2022/07/01/b2a278a7-0004-4148-982d-d206011dacf4/jugador_fitxa-ansu.jpg?width=840&height=525",
+    "id": "2",
+    "name": "Anau Fati",
+    "description": "Aubameyang played for FC Barcelon during a crucial time. he has helped the team a lot. He performed when it was needed the most",
+    "goal": "38",
+    "minute": 150
+  },
+  {
+    "img": "https://www.fcbarcelona.com/photo-resources/2022/07/01/41c94cd4-c2d8-40a9-bfea-6714dbd024ab/jugador_fitxa-pedri.jpg?width=840&height=525",
+    "id": "3",
+    "name": "Pedri Gongalez",
+    "description": "Pedri is one of the best young player in the world. He played for FC Barcelon during a crucial time. he has helped the team a lot. He performed when it was needed the most",
+    "goal": "10",
+    "minute": 350
+  },
+  {
+    "img": "https://www.fcbarcelona.com/photo-resources/2022/07/24/f47cd134-efc4-4f90-943d-41ad2443d4f1/jugador_fitxa-lewan.jpg?width=840&height=525",
+    "id": "4",
+    "name": "Rober Lewandoski",
+    "description": "Robert Lewandoski is one of the best striker in the world right now. He played for FC Barcelon during a crucial time. he has helped the team a lot. He performed when it was needed the most",
+    "goal": "10",
+    "minute": 50
+  },
+  {
+    "img": "https://www.fcbarcelona.com/photo-resources/2022/07/01/66638e1c-f951-48df-a6f0-4d15d61ab704/jugador_fitxa-sergio.jpg?width=840&height=525",
+    "id": "5",
+    "name": "Sergio Busquets",
+    "description": "Sergio is one of the best DM in the world right now. He played for FC Barcelon during a crucial time. he has helped the team a lot. He performed when it was needed the most",
+    "goal": "10",
+    "minute": 850
+  },
+  {
+    "img": "https://www.fcbarcelona.com/photo-resources/2022/07/01/fd6dc8ad-4ce8-4a6b-806c-96386ec7aaa8/jugador_fitxa-araujo.jpg?width=840&height=525",
+    "id": "6",
+    "name": "Ronald Araujo",
+    "description": "Araujo is one of the best cb in the world right now. He played for FC Barcelon during a crucial time. he has helped the team a lot. He performed when it was needed the most",
+    "goal": "10",
+    "minute": 250
+  }
+]
