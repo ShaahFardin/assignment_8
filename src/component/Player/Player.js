@@ -1,10 +1,9 @@
 import React from "react";
 
 const Player = (props) => {
+  // const { handleAddToCart } = props;
   const { name, description, img, minute } = props.player;
-  const handleAddToCart = () => {
-    console.log("clicked");
-  };
+
   return (
     <div>
       {/* card starts */}
@@ -17,8 +16,9 @@ const Player = (props) => {
           <p className="text-left">{description}</p>
           <p className="text-start my-3">Minutes Played: {minute}</p>
           <button
-            onClick={handleAddToCart}
-            className="btn btn-error hover:btn-success">
+            onClick={props.handleAddToCart}
+            className="btn btn-error hover:btn-success"
+          >
             Add to list
           </button>
         </div>

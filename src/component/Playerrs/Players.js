@@ -8,6 +8,11 @@ const Players = () => {
       .then((res) => res.json())
       .then((data) => setPlayerss(data));
   }, []);
+
+  const handleAddToCart = () => {
+    console.log("clickeddd");
+  };
+
   return (
     <div>
       <div className="bg-slate-500">
@@ -23,7 +28,10 @@ const Players = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {playerss.map((player) => (
-                <Player player={player}></Player>
+                <Player
+                  player={player}
+                  handleAddToCart={handleAddToCart}
+                ></Player>
               ))}
             </div>
           </div>
