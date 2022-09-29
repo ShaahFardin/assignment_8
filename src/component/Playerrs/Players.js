@@ -1,4 +1,4 @@
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faCoffee, faFutbol } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
@@ -26,7 +26,7 @@ const Players = () => {
           <div className=" col-span-3 p-10">
             <div>
               <h1 className="text-left text-5xl font-medium text-red-500 mt-7">
-                <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faFutbol}></FontAwesomeIcon> 
                 Iron-Warriors
               </h1>
               <h1 className="text-left text-2xl my-12">
@@ -43,7 +43,7 @@ const Players = () => {
             </div>
           </div>
 
-          <div className="player-container border-2 border-green-500 col-span-1">
+          <div className=" border-2 border-green-500 col-span-1 bg-gray-100">
             <Cart cart={cart}></Cart>
           </div>
         </div>
