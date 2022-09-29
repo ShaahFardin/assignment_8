@@ -9,8 +9,8 @@ const Players = () => {
       .then((data) => setPlayers(data));
   }, []);
   return (
-    <div>
-      this is plater section : {players.length}
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      
       {players.map((player) => (
         <Player player={player}></Player>
       ))}
