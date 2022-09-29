@@ -12,14 +12,10 @@ const Cart = ({cart}) => {
     return (
       <div className="player-container">
         
-        <h1>Selected playeres : {cart.length}</h1>
-        <p>time played : {totalTime}</p>
+        {/* <h1>Selected playeres : {cart.length}</h1>
+        <p>time played : {totalTime}</p> */}
         <Info></Info>
         <Exercise time={totalTime}></Exercise>
-        
-        <div>
-            dakfalhf
-        </div>
       </div>
     );
 };
