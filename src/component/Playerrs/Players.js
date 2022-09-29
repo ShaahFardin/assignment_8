@@ -51,26 +51,30 @@ const Players = () => {
               ))}
             </div>
             <div>
-              <h1 className="text-left text-5xl font-semibold my-10">
+              <h1 className="text-left text-5xl font-semibold mt-20 my-10">
                 Question and answer section
               </h1>
-              <div className="">
-                <h1>How does react work?</h1>
-                <p>
+              <div className="text-start">
+                <h1 className="text-3xl">How does react work?</h1>
+                <p className="bg-white p-5 text-xl">
                   ReactJS divides the UI into isolated reusable pieces of code
                   known as components. React components work similarly to
                   JavaScript functions as they accept arbitrary inputs called
                   properties or props. It's possible to have as many components
                   as necessary without cluttering your code.
                 </p>
-                <h1>What are the difference between props and state?</h1>
-                <p>
+                <h1 className="text-3xl">
+                  What are the difference between props and state?
+                </h1>
+                <p className="bg-white p-5 text-xl">
                   Props are used to pass data from one component to another. The
                   state is a local data storage that is local to the component
                   only and cannot be passed to other components.
                 </p>
-                <h1>Other use of React Hook rather than fetching data?</h1>
-                <p>
+                <h1 className="text-3xl">
+                  Other use of React Hook rather than fetching data?
+                </h1>
+                <p className="bg-white p-5 text-xl">
                   <li>validating input field</li>
                   <li>live filtering</li>
                   <li>trigger animation on new array value</li>
