@@ -1,11 +1,12 @@
 
 import './App.css';
-import Main from './component/Main/Main';
+import Players from './component/Playerrs/Players';
+
 
 function App() {
   return (
     <div className="App">
-     <Main></Main>
+     <Players></Players>
     </div>
   );
 }
