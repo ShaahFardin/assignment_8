@@ -1,17 +1,25 @@
-import { faCoffee, faFutbol } from "@fortawesome/free-solid-svg-icons";
+import {  faFutbol } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
 import Player from "../Player/Player";
 
+
+
 const Players = () => {
+
+
   const [playerss, setPlayerss] = useState([]);
+
+
   const [cart, setCart] = useState([]);
+
   useEffect(() => {
     fetch("data.json")
       .then((res) => res.json())
       .then((data) => setPlayerss(data));
   }, []);
+
 
   const handleAddToCart = (player) => {
     console.log(player);
@@ -19,6 +27,7 @@ const Players = () => {
     setCart(newCart);
   };
 
+  
   return (
     <div >
       <div className="bg-gray-50">
