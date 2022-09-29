@@ -8,7 +8,10 @@ const Info = () => {
         <div className="flex  p-5 border-2 rounded-xl m-3 my-10 bg-gray-50">
           <div className="avatar">
             <div className="w-14 rounded-xl">
-              <img src="../../../public/images/pedri.png" alt=''/>
+              <img
+                src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=466&q=80"
+                alt=""
+              />
             </div>
           </div>
           <div className="text-start ml-5">
