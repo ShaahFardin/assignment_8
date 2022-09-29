@@ -5,13 +5,13 @@ import React from 'react';
 const Info = () => {
     return (
       <div className="">
-        <div className="flex  justify-around p-5 border-2 rounded-xl m-3 my-10 bg-gray-50">
+        <div className="flex  p-5 border-2 rounded-xl m-3 my-10 bg-gray-50">
           <div className="avatar">
             <div className="w-14 rounded-xl">
               <img src="../../../public/images/pedri.png" alt=''/>
             </div>
           </div>
-          <div className="text-start">
+          <div className="text-start ml-5">
             <p className="text-lg font-semibold">Shah Fardin</p>
             <p>
               <FontAwesomeIcon icon={faHome}></FontAwesomeIcon> Sylhet,

@@ -20,16 +20,16 @@ const Players = () => {
   };
 
   return (
-    <div>
-      <div className="bg-slate-500">
-        <div className="grid grid-cols-4 gap-4">
+    <div >
+      <div className="bg-gray-50">
+        <div className="grid md:grid-cols-4 gap-4">
           <div className=" col-span-3 p-10">
             <div>
-              <h1 className="text-left text-5xl font-medium text-red-500 mt-7">
+              <h1 className="text-left text-7xl font-bold text-red-500 mt-7">
                 <FontAwesomeIcon icon={faFutbol}></FontAwesomeIcon> 
                 Iron-Warriors
               </h1>
-              <h1 className="text-left text-2xl my-12">
+              <h1 className="text-left text-3xl my-12">
                 Select workout that you want to do today
               </h1>
             </div>
@@ -43,7 +43,7 @@ const Players = () => {
             </div>
           </div>
 
-          <div className=" border-2 border-green-500 col-span-1 bg-gray-100">
+          <div className="col-span-1 bg-gray-100">
             <Cart cart={cart}></Cart>
           </div>
         </div>
