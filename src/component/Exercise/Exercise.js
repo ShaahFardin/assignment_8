@@ -12,24 +12,6 @@ const Exercise = ({ time }) => {
     breakTime.innerText = value;
   };
 
-  const toaster =()=>{
-    <div className="modal" id="my-modal-2">
-      <div className="modal-box">
-        <h3 className="font-bold text-lg">
-          Congratulations random Internet user!
-        </h3>
-        <p className="py-4">
-          You've been selected for a chance to get one year of subscription to
-          use Wikipedia for free!
-        </p>
-        <div className="modal-action">
-          <a href="#" className="btn">
-            Yay!
-          </a>
-        </div>
-      </div>
-    </div>;
-  }
   return (
     <div>
       <div>
@@ -48,12 +30,12 @@ const Exercise = ({ time }) => {
 
       <div className="flex justify-between p-5 border-2 rounded-xl m-3 my-5 bg-gray-50">
         <div className="text-xl font-semibold">Exercise time</div>
-        <div className="font-extralight">{time} minute</div>
+        <div className="font-extralight">{time} minutes</div>
       </div>
       <div className="flex justify-between  p-5 border-2 rounded-xl m-3  bg-gray-50">
         <div className="text-xl font-semibold">Break time</div>
         <div id="breakTime" className="font-extralight">
-          second
+          seconds
         </div>
       </div>
 

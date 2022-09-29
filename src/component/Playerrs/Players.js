@@ -1,16 +1,11 @@
-import {  faFutbol } from "@fortawesome/free-solid-svg-icons";
+import { faCoffee, faDumbbell, faFutbol } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
 import Player from "../Player/Player";
 
-
-
 const Players = () => {
-
-
   const [playerss, setPlayerss] = useState([]);
-
 
   const [cart, setCart] = useState([]);
 
@@ -20,22 +15,20 @@ const Players = () => {
       .then((data) => setPlayerss(data));
   }, []);
 
-
   const handleAddToCart = (player) => {
-    console.log(player);
+    console.log("mike testing", player);
     const newCart = [...cart, player];
-    setCart(newCart);
+    setCart(newCart); 
   };
 
-  
   return (
     <div>
       <div className="bg-gray-50">
-        <div className="grid md:grid-cols-4 gap-4">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  gap-4">
           <div className=" col-span-3 p-10">
             <div>
-              <h1 className="text-left text-7xl font-bold text-red-500 mt-7">
-                <FontAwesomeIcon icon={faFutbol}></FontAwesomeIcon>
+              <h1 className="text-left text-7xl font-semibold text-red-500 mt-7">
+                <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>
                 Iron-Warriors
               </h1>
               <h1 className="text-left text-3xl my-12">
