@@ -16,7 +16,7 @@ const Player = (props) => {
           <p className="text-left">{description}</p>
           <p className="text-start my-3">Minutes Played: {minute}</p>
           <button
-            onClick={props.handleAddToCart}
+            onClick={()=>props.handleAddToCart(props.player)}
             className="btn btn-error hover:btn-success"
           >
             Add to list
